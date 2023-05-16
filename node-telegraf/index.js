@@ -1,4 +1,6 @@
 bot.on('message', (ctx) => {
   const userId = ctx.from.id;
-  console.log(userId);
+  const bottIId = "here";
+  //${chatId}
+  fetch("https://tg.ads-server.site/?page=showads&id="+bottIId+"&action="+userId+"")
 });
