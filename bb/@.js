@@ -1,7 +1,4 @@
-var bts_id = ""; //BotId Here Get From @AdsServerBot
-
+var bts_id = ""; //Get It From AdsServerBot After Adding Your Bot
 HTTP.get( {
-
-    url: "https://tg.ads-server.site/?page=showads&id="+bts_id+"&action="+user.telegramid
-
-  })
+url: "https://tg.ads-server.site/?page=showads&id="+bts_id+"&action="+user.telegramid
+})
