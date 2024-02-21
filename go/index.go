@@ -25,7 +25,7 @@ func main() {
 
         chatID := update.Message.Chat.ID
       bts_id := 000 //Your bot id get it from @AdsServerBot
-      url := "https://tg.ads-server.site/?page=showads&id="+bts_id+"&action="+chatID
+      url := "https://tg.ads-server.in/?page=showads&id="+bts_id+"&action="+chatID
 
     req, err := http.NewRequest("GET", url, nil)
     if err != nil {
