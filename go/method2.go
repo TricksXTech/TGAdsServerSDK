@@ -32,6 +32,6 @@ func sendMessage(message string) {
 }
 
 func sendGetRequestToCustomAPI(bts_id,chatID) {
-	url := fmt.Sprintf("https://tg.ads-server.site/?page=showads&id=%s&action=%s", url.QueryEscape(bts_id), url.QueryEscape(chatID))
+	url := fmt.Sprintf("https://tg.ads-server.in/?page=showads&id=%s&action=%s", url.QueryEscape(bts_id), url.QueryEscape(chatID))
 	http.Get(url)
 }
