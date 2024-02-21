@@ -1,5 +1,5 @@
 let lib_prefix = 'AdsServer';
-let API_URL = 'https://tg.ads-server.site/';
+let API_URL = 'https://tg.ads-server.in/';
 
 function showAds(){
   let parameter = {
